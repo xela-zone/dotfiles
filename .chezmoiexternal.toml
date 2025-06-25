@@ -1,0 +1,14 @@
+[".oh-my-zsh"]
+    type = "git-repo"
+    url = "https://github.com/ohmyzsh/ohmyzsh/"
+    refreshPeriod = "168h"
+    [".oh-my-zsh".pull]
+        args = ["--rebase"]
+
+
+[".emacs.d"]
+    type = "git-repo"
+    url = "https://github.com/syl20bnr/spacemacs"
+    refreshPeriod = "168h"
+    [".emacs.d".pull]
+        args = ["--rebase"]
