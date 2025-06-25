@@ -111,4 +111,4 @@ alias cz=chezmoi
 export PATH="${PATH}:/home/xela/bin"
 
 export EDITOR=nano
-eval "$(atuin init zsh)"
+eval "$(atuin init zsh --disable-up-arrow)"
